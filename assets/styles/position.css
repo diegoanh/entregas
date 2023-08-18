@@ -1,0 +1,53 @@
+/* Reiniciamos los estilos por defecto */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{ 
+    position: relative;
+
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+}
+
+#two {
+    position: relative;
+    top: 35px;
+    left: 50px;
+    background-color: crimson;
+}
+
+#three {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: hotpink;
+}
+
+.father {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-color: darkmagenta;
+    border: 2px solid black;
+    position: relative;
+    top: 40px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
